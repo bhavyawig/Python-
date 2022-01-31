@@ -1,0 +1,6 @@
+s=open('bhavya.txt','r+')
+data=s.read()
+f=open('newe.txt','r+')
+f.write(data)
+s.close()
+f.close()

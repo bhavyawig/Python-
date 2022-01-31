@@ -1,0 +1,5 @@
+s=open('sample.txt','r+')
+content=s.read()
+content=content.replace("Learn","%%%%")
+s.write(content)
+s.close()
